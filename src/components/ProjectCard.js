@@ -14,9 +14,10 @@ const ProjectCard = props => {
         <div className={`${isHover ? styles['card-hover'] : styles['card']}`}
          onMouseEnter={() => setIsHover(true)}
          onMouseLeave={() => setIsHover(false)}
-         onClick={brah}
+         onClick={()=> window.open(props.project.link, "_blank")}
         >
-        <p>suck my asshole</p>
+        <p><b>{props.project.name}</b></p>
+        <p>{props.project.info}</p>
         </div>
     );
 

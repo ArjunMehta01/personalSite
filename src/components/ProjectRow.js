@@ -10,7 +10,7 @@ import ProjectCard from './ProjectCard';
 const ProjectRow = props => {
     return (<Row>
             {props.source.map((project) => {
-                return <Col><ProjectCard/></Col>
+                return <Col><ProjectCard project={{...project}}/></Col>
             })}
         </Row>);
 };
