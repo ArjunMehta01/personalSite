@@ -1,0 +1,40 @@
+.div {
+    margin: 0;
+    padding: 0%;
+    height: 20rem;
+    margin-bottom: 5%;
+}
+
+.aboutMe {
+    /* height: 95%; */
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+
+}
+
+.skills {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #fb93fc;
+}
+
+
+
+.Container {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    margin: 0%;
+    
+}
+
+button {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+.project {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
