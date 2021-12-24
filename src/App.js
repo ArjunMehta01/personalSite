@@ -6,6 +6,8 @@ import ProjectGrid from './components/ProjectGrid';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { HashRouter as Router } from 'react-router-dom'
+
 
 function App() {
   return (
